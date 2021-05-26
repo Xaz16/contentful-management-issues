@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "ts-node main.ts"
+  },
+  "dependencies": {
+    "contentful-management": "^7.22.3",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "ts-node": "^10.0.0"
+  }
+}
