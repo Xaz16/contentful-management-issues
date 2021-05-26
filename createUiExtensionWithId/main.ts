@@ -11,7 +11,7 @@ const main = async () => {
     name: "test extension",
     fieldTypes: [{ type: "Symbol" }],
     sidebar: false,
-    srcdoc: null,
+    srcdoc: "",
   };
   const extensionId = "anyIdAsYouWish";
 
@@ -28,6 +28,7 @@ const main = async () => {
     await notWorkingOne();
   } catch (e) {
     console.error("Right interface, but error");
+    console.error(e);
   }
 
   await workingOne();
