@@ -3,5 +3,5 @@
 Steps:
 
 - npm ci
-- create .env file from .env.example and run npm start
+- create .env file from .env.example fill with your credentials
 - npm start
